@@ -1,0 +1,173 @@
+.TopBarr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(83, 15, 15);
+    padding: 5px;
+    color: aliceblue;
+}
+.TitoloPag {
+    display: flex;
+    align-items: center;
+}
+.LeoTitle    {
+    font-style: italic;
+    font-family: papyrus, cursive;
+    font-weight: unset;
+    font-size: 24px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.Credits {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    opacity: 0.5;
+    font-family: Courier New, monospace;
+    
+}
+.WiFi {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    border-right: solid 1px ;
+}
+
+.Tw {
+    display: flex;
+    align-items: center;
+}
+.Cr_img1 {
+    width: 17px;
+    height: 17px;
+    padding: 3px;
+}
+.Cr_img2 {
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+}
+.Cr_txt {
+    font-size: 12px;
+    padding: 2px;
+}
+.Menu {
+    display: flex;  
+    justify-content: space-evenly;
+}
+.Menu_t {
+    margin: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Courier, monospace;
+}
+
+.Menu_t:hover {
+    background-color: grey;
+   }
+.BloccoImg1{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding: 5px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    float: right;
+}
+.img {
+    width: 170px;
+    height: 240px;
+}
+.BloccoImg2{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    float: left;
+}
+.BloccoImg3{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    float: right;
+}
+.body {
+   margin: 0px;
+   background-color: rgb(248, 244, 232);
+   margin-bottom: 20px;
+}
+.main {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Titolo{
+    border-bottom: solid 3px ;
+    border-color: rgba(128, 128, 128, 0.281);
+    margin-bottom:1px;
+    line-height: 0;
+    padding-top: 35px;
+}
+.Container1{
+   
+    padding-top: 25px;
+   
+}
+.Container2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Container3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.para > em {
+    color: brown;
+}
+tr:nth-child(even) {
+    background-color: rgb(243, 230, 191);
+  }
+th {
+    background-color: rgba(83, 15, 15, 0.568) ;
+    color: white ;;
+}
+.tabella{
+    max-width: 70%;
+    margin: auto;  
+    margin-bottom: 5px; 
+}
+.LinkEnd{
+    text-decoration: none;
+    color: brown;
+    border-top: 1px solid rgba(128, 128, 128, 0.268);
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.footer {
+    opacity: 0.3;
+    text-align: center;
+    border-top: solid 1px;
+    border-top-color: gray;
+    max-height: 40px;
+}
+

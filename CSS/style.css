@@ -1,0 +1,114 @@
+.TopBarr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(83, 15, 15);
+    padding: 5px;
+    color: aliceblue;
+}
+.TitoloPag {
+    display: flex;
+    align-items: center;
+}
+.LeoTitle    {
+    font-style: italic;
+    font-family: papyrus, cursive;
+    font-weight: unset;
+    font-size: 24px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.Credits {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    opacity: 0.5;
+    font-family: Courier New, monospace;
+    
+}
+.WiFi {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    border-right: solid 1px ;
+}
+
+.Tw {
+    display: flex;
+    align-items: center;
+}
+.Cr_img1 {
+    width: 17px;
+    height: 17px;
+    padding: 3px;
+}
+.Cr_img2 {
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+}
+.Cr_txt {
+    font-size: 12px;
+    padding: 2px;
+}
+.Menu {
+    display: flex;  
+    justify-content: space-evenly;
+}
+.Menu_t {
+    margin: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Courier, monospace;
+}
+.BloccoImg{
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding: 5px;
+}
+.imgV {
+    width: 170px;
+    height: 240px;
+}
+.body {
+   margin: 0px;
+   background-color: rgb(248, 244, 232);
+}
+.main {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Titolo{
+    border-bottom: solid 3px ;
+    border-color: rgba(128, 128, 128, 0.281);
+    margin-bottom:1px;
+    line-height: 0;
+    padding-top: 35px;
+}
+.Container1{
+    display: flex;
+    padding-top: 25px;
+}
+.Container2{
+    display: flex;
+    flex-direction: column;
+}
+.Container2 > p {
+    margin-top: 0px;
+}
+.Container3 > h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.LinkList {
+    text-decoration: none;
+    color: brown;
+}
+.footer {
+    opacity: 0.3;
+    text-align: center;
+    border-top: solid 1px;
+    border-top-color: gray;
+    max-height: 40px;
+}
